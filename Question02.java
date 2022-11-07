@@ -9,8 +9,6 @@ public class Question02 {
 
         String userNumber = myObj.nextLine();  // Read user input
 
-//        char firstChar = userNumber.charAt(0);  get the first character (position zero)
-
         System.out.println("You typed " + userNumber.length() + " digits.");  // Output user input
     }
 }
