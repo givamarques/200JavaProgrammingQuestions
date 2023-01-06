@@ -7,7 +7,7 @@ public class Question02 {
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter a number"); // asks user
 
-        String userNumber = myObj.nextLine();  // Read user input
+        String userNumber = myObj.nextLine();  // Read user string input
 
         System.out.println("You typed " + userNumber.length() + " digits.");  // Output user input
     }
